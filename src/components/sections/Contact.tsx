@@ -40,7 +40,7 @@ const Contact: React.FC = () => {
           <h2 className="font-serif text-3xl md:text-4xl font-bold mb-4">Contact Us</h2>
           <div className="w-24 h-1 bg-gold mx-auto mb-6"></div>
           <p className="max-w-2xl mx-auto text-gray-300 text-lg">
-            Have questions about kosher certification? Reach out to our team of experts.
+            Have questions about Volove Kashrus certification? Reach out to our team of experts.
           </p>
         </div>
 

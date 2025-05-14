@@ -6,7 +6,7 @@ const About: React.FC = () => {
     <section id="about" className="py-20 bg-white">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-16">
-          <h2 className="font-serif text-3xl md:text-4xl font-bold text-navy mb-4">About Kosher Trust</h2>
+          <h2 className="font-serif text-3xl md:text-4xl font-bold text-navy mb-4">About Volove Kashrus</h2>
           <div className="w-24 h-1 bg-gold mx-auto mb-6"></div>
           <p className="max-w-2xl mx-auto text-gray-600 text-lg">
             A legacy of excellence in kosher certification since 1985.
@@ -17,12 +17,12 @@ const About: React.FC = () => {
           <div>
             <h3 className="font-serif text-2xl font-bold text-navy mb-4">Our Mission</h3>
             <p className="text-gray-600 mb-6">
-              At Kosher Trust, our mission is to uphold the highest standards of kosher certification, ensuring that consumers can confidently make choices aligned with Jewish dietary laws. We combine traditional knowledge with modern expertise to serve the global kosher community.
+              At Volove Kashrus, our mission is to uphold the highest standards of kosher certification, ensuring that consumers can confidently make choices aligned with Jewish dietary laws. We combine traditional knowledge with modern expertise to serve the global kosher community.
             </p>
             
             <h3 className="font-serif text-2xl font-bold text-navy mb-4">Our History</h3>
             <p className="text-gray-600 mb-6">
-              Founded in 1985 by Rabbi Joseph Goldberg, Kosher Trust began as a small local certification agency in Brooklyn. Over the decades, we have grown into a globally recognized authority in kosher certification, serving thousands of companies across six continents.
+              Founded in 1985 by Rabbi Teitelbaum, Volove Kashrus began as a small local certification agency in Brooklyn. Over the decades, we have grown into a globally recognized authority in kosher certification, serving thousands of companies across six continents.
             </p>
             
             <h3 className="font-serif text-2xl font-bold text-navy mb-4">Our Approach</h3>
