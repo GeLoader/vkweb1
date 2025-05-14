@@ -36,7 +36,7 @@ const Footer: React.FC = () => {
             <ul className="space-y-2">
               <li><a href="#" className="text-gray-300 hover:text-gold transition-colors">Home</a></li>
               <li><a href="#services" className="text-gray-300 hover:text-gold transition-colors">Services</a></li>
-              <li><a href="#products" className="text-gray-300 hover:text-gold transition-colors">Search Products</a></li>
+              {/* <li><a href="#products" className="text-gray-300 hover:text-gold transition-colors">Search Products</a></li> */}
               <li><a href="#resources" className="text-gray-300 hover:text-gold transition-colors">Resources</a></li>
               <li><a href="#about" className="text-gray-300 hover:text-gold transition-colors">About Us</a></li>
             </ul>
@@ -84,7 +84,7 @@ const Footer: React.FC = () => {
         </div>
 
         <div className="mt-12 pt-6 border-t border-gray-700 text-center text-gray-400">
-          <p>&copy; {new Date().getFullYear()} Volove Kashrus. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Volove Kashrus. All rights reserved. Powered by <a href="https://uppertech.net/" target="_blank">Uppertech</a></p>
         </div>
       </div>
     </footer>

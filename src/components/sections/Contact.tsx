@@ -55,7 +55,8 @@ const Contact: React.FC = () => {
                 </div>
                 <div>
                   <h4 className="font-bold text-lg mb-1">Call Us</h4>
-                  <p className="text-gray-300">(800) 555-KOSHER</p>
+                  {/* <p className="text-gray-300">(800) 555-KOSHER</p> */}
+                  <p className="text-gray-300">(718) 436-4685</p>
                 </div>
               </div>
               
@@ -65,7 +66,8 @@ const Contact: React.FC = () => {
                 </div>
                 <div>
                   <h4 className="font-bold text-lg mb-1">Email Us</h4>
-                  <p className="text-gray-300">info@koshertrust.com</p>
+                  {/* <p className="text-gray-300">info@koshertrust.com</p> */}
+                  <p className="text-gray-300">rabbi@vkkosher.org</p>
                 </div>
               </div>
               
@@ -75,16 +77,21 @@ const Contact: React.FC = () => {
                 </div>
                 <div>
                   <h4 className="font-bold text-lg mb-1">Visit Us</h4>
-                  <p className="text-gray-300">
+                  {/* <p className="text-gray-300">
                     123 Kosher Way<br />
                     Brooklyn, NY 11223<br />
+                    United States
+                  </p> */}
+                  <p className="text-gray-300">
+                    5808 11th Ave.<br />
+                    Brooklyn, NY 11219<br />
                     United States
                   </p>
                 </div>
               </div>
             </div>
             
-            <div className="mt-12">
+            {/* <div className="mt-12">
               <h3 className="font-serif text-2xl font-bold mb-4">Certification Hours</h3>
               <ul className="space-y-2 text-gray-300">
                 <li className="flex justify-between">
@@ -104,7 +111,7 @@ const Contact: React.FC = () => {
                   <span>10:00 AM - 4:00 PM</span>
                 </li>
               </ul>
-            </div>
+            </div> */}
           </div>
           
           <div>

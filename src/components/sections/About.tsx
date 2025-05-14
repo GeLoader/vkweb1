@@ -9,7 +9,7 @@ const About: React.FC = () => {
           <h2 className="font-serif text-3xl md:text-4xl font-bold text-navy mb-4">About Volove Kashrus</h2>
           <div className="w-24 h-1 bg-gold mx-auto mb-6"></div>
           <p className="max-w-2xl mx-auto text-gray-600 text-lg">
-            A legacy of excellence in kosher certification since 1985.
+            A legacy of excellence in Volove Kashrus certification since 1985.
           </p>
         </div>
 
@@ -17,17 +17,17 @@ const About: React.FC = () => {
           <div>
             <h3 className="font-serif text-2xl font-bold text-navy mb-4">Our Mission</h3>
             <p className="text-gray-600 mb-6">
-              At Volove Kashrus, our mission is to uphold the highest standards of kosher certification, ensuring that consumers can confidently make choices aligned with Jewish dietary laws. We combine traditional knowledge with modern expertise to serve the global kosher community.
+              At Volove Kashrus, our mission is to uphold the highest standards of Volove Kashrus certification, ensuring that consumers can confidently make choices aligned with Jewish dietary laws. We combine traditional knowledge with modern expertise to serve the global kosher community.
             </p>
             
             <h3 className="font-serif text-2xl font-bold text-navy mb-4">Our History</h3>
             <p className="text-gray-600 mb-6">
-              Founded in 1985 by Rabbi Teitelbaum, Volove Kashrus began as a small local certification agency in Brooklyn. Over the decades, we have grown into a globally recognized authority in kosher certification, serving thousands of companies across six continents.
+              Founded in 1985 by Rabbi Teitelbaum, Volove Kashrus began as a small local certification agency in Brooklyn. Over the decades, we have grown into a globally recognized authority in Volove Kashrus certification, serving thousands of companies across six continents.
             </p>
             
             <h3 className="font-serif text-2xl font-bold text-navy mb-4">Our Approach</h3>
             <p className="text-gray-600">
-              We believe in a collaborative approach to kosher certification. Our team works closely with manufacturers to implement kosher systems that maintain the highest level of integrity while being practical and sustainable for businesses of all sizes.
+              We believe in a collaborative approach to Volove Kashrus certification. Our team works closely with manufacturers to implement Volove Kashrus systems that maintain the highest level of integrity while being practical and sustainable for businesses of all sizes.
             </p>
           </div>
           
@@ -37,7 +37,7 @@ const About: React.FC = () => {
                 <Clock className="h-6 w-6 text-gold" />
               </div>
               <h4 className="font-serif text-xl font-bold mb-2">30+ Years</h4>
-              <p className="text-gray-300">Three decades of excellence in kosher certification</p>
+              <p className="text-gray-300">Three decades of excellence in Volove Kashrus certification</p>
             </div>
             
             <div className="bg-navy text-white rounded-lg p-6 transform transition-transform hover:scale-105">

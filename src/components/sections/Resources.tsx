@@ -13,7 +13,7 @@ const resources: Resource[] = [
   {
     id: '2',
     title: 'Kosher Symbols Explained',
-    description: 'Learn to identify and understand various kosher certification symbols.',
+    description: 'Learn to identify and understand various Volove Kashrus certification symbols.',
     link: '#',
     type: 'guide'
   },
@@ -48,8 +48,8 @@ const resources: Resource[] = [
 ];
 
 const Resources: React.FC = () => {
+  // const [activeFilter, setActiveFilter] = useState<'all' | 'article' | 'video' | 'guide'>('all');
   const [activeFilter, setActiveFilter] = useState<'all' | 'article' | 'video' | 'guide'>('all');
-  
   const filteredResources = activeFilter === 'all' 
     ? resources 
     : resources.filter(resource => resource.type === activeFilter);
@@ -109,7 +109,7 @@ const Resources: React.FC = () => {
               }`}
               onClick={() => setActiveFilter('video')}
             >
-              Videos
+              {/* Videos
             </button>
             <button
               type="button"
@@ -119,7 +119,7 @@ const Resources: React.FC = () => {
                   : 'bg-white text-gray-700 hover:bg-gray-100'
               }`}
               onClick={() => setActiveFilter('guide')}
-            >
+            > */}
               Guides
             </button>
           </div>
