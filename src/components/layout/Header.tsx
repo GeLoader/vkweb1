@@ -37,7 +37,7 @@ const Header: React.FC = () => {
         <div className="flex items-center justify-between">
           <div className="flex items-center">
             <img 
-             src={`${ isScrolled ? 'vklogo-black.svg' : 'vklogo.svg'
+             src={`${ isScrolled ? '/vkweb1/vklogo-black.svg' : '/vkweb1/vklogo.svg'
               }`}
               alt="Volove Kashrus Logo" 
               className="h-12 w-12 mr-2"
