@@ -7,42 +7,42 @@ const resources: Resource[] = [
     id: '1',
     title: 'Understanding Kosher Basics',
     description: 'An introductory guide to kosher dietary laws and principles.',
-    link: '#',
+    link: '/vkweb1/files/טבלא להפרשת חלה.pdf',
     type: 'article'
   },
   {
     id: '2',
     title: 'Kosher Symbols Explained',
     description: 'Learn to identify and understand various Volove Kashrus certification symbols.',
-    link: '#',
+    link: '/vkweb1/files/טבלא להדלקת התנור עם קאלום לטעלעפאון - LOC Chefs Kingdom 5784.pdf',
     type: 'guide'
   },
-  {
-    id: '3',
-    title: 'The Certification Process',
-    description: 'A step-by-step video walkthrough of our certification procedure.',
-    link: '#',
-    type: 'video'
-  },
+  // {
+  //   id: '3',
+  //   title: 'The Certification Process',
+  //   description: 'A step-by-step video walkthrough of our certification procedure.',
+  //   link: '#',
+  //   type: 'video'
+  // },
   {
     id: '4',
     title: 'Kosher for Passover Guidelines',
     description: 'Special considerations for Passover certification and products.',
-    link: '#',
+    link: '/vkweb1/files/פריינד מכירת חמץ תשפה - Xanthan - Gefen Alert Chulent.pdf',
     type: 'article'
   },
   {
     id: '5',
     title: 'Manufacturing Kosher Products',
     description: 'Best practices for maintaining kosher standards in production.',
-    link: '#',
+    link: '/vkweb1/files/Xanthan.pdf',
     type: 'guide'
   },
   {
     id: '6',
     title: 'Common Kosher Ingredients',
     description: 'A comprehensive list of commonly used kosher ingredients.',
-    link: '#',
+    link: '/vkweb1/files/Xanthan.pdf',
     type: 'article'
   }
 ];
@@ -140,6 +140,8 @@ const Resources: React.FC = () => {
                 <a
                   href={resource.link}
                   className="inline-flex items-center text-gold hover:text-gold/80 font-medium"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Read More <ExternalLink className="ml-1 h-4 w-4" />
                 </a>

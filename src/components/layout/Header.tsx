@@ -46,7 +46,7 @@ const Header: React.FC = () => {
             <span className={`font-serif text-2xl font-bold ${
               isScrolled ? 'text-navy' : 'text-white'
             }`}>
-              Volove Kashrus
+              <a href="" target="_self"> Volove Kashrus</a>
             </span>
           </div>
 

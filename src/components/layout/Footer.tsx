@@ -47,15 +47,15 @@ const Footer: React.FC = () => {
             <ul className="space-y-3">
               <li className="flex items-start">
                 <Phone className="h-5 w-5 text-gold mr-2 mt-0.5" />
-                <span>(800) 555-KOSHER</span>
+                <span>(718) 436-4685</span>
               </li>
               <li className="flex items-start">
                 <Mail className="h-5 w-5 text-gold mr-2 mt-0.5" />
-                <span>info@volovekashrus.com</span>
+                <span>rabbi@vkkosher.org</span>
               </li>
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 text-gold mr-2 mt-0.5" />
-                <span>123 Kosher Way<br />Brooklyn, NY 11223</span>
+                <span>5808 11th Ave.<br />Brooklyn, NY 11219</span>
               </li>
             </ul>
           </div>
