@@ -1,7 +1,44 @@
 import React, { useState } from 'react';
 import { Mail, Phone, MapPin, Send } from 'lucide-react';
+import Swal from 'sweetalert2'
 
 const Contact: React.FC = () => {
+  //const [result, setResult] = React.useState("");
+
+  const onSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    //setResult("Sending....");
+    const formData = new FormData(event.currentTarget);
+
+    formData.append("access_key", "68aaaaed-04dc-4b08-8002-213f14b5803e");
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      setFormData({
+        name: '',
+        email: '',
+        company: '',
+        phone: '',
+        message: '',
+        type: 'certification'
+      });
+      Swal.fire({
+        title: "Success!",
+        text: "Your message has been sent. We will contact you shortly!",
+        icon: "success"
+      });
+       // Show success message (in a real app)
+     // alert('Your message has been sent. We will contact you shortly!');
+     //setResult("Form Submitted Successfully");
+      //(event.currentTarget as HTMLFormElement).reset();
+    } 
+  };
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -16,22 +53,7 @@ const Contact: React.FC = () => {
     setFormData(prev => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    // In a real application, you would send this data to your backend
-    console.log('Form submitted:', formData);
-    // Reset form
-    setFormData({
-      name: '',
-      email: '',
-      company: '',
-      phone: '',
-      message: '',
-      type: 'certification'
-    });
-    // Show success message (in a real app)
-    alert('Your message has been sent. We will contact you shortly!');
-  };
+   
 
   return (
     <section id="contact" className="py-20 bg-navy text-white">
@@ -117,7 +139,7 @@ const Contact: React.FC = () => {
           <div>
             <h3 className="font-serif text-2xl font-bold mb-6">Send a Message</h3>
             
-            <form onSubmit={handleSubmit} className="space-y-4">
+            <form onSubmit={onSubmit} className="space-y-4">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div>
                   <label htmlFor="name" className="block mb-2 text-sm font-medium">Your Name</label>
@@ -179,10 +201,10 @@ const Contact: React.FC = () => {
                   onChange={handleChange}
                   className="w-full px-4 py-2 rounded-md bg-navy-800 border border-gray-600 text-white focus:ring-2 focus:ring-gold focus:border-transparent"
                 >
-                  <option value="certification">Certification Inquiry</option>
-                  <option value="information">General Information</option>
-                  <option value="renewal">Certification Renewal</option>
-                  <option value="other">Other</option>
+                  <option value="Certification Inquiry">Certification Inquiry</option>
+                  <option value="General Information">General Information</option>
+                  <option value="Certification Renewal">Certification Renewal</option>
+                  <option value="Other">Other</option>
                 </select>
               </div>
               
@@ -206,6 +228,8 @@ const Contact: React.FC = () => {
                 Send Message <Send className="ml-2 h-4 w-4" />
               </button>
             </form>
+
+            
           </div>
         </div>
       </div>
