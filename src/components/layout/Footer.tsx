@@ -18,7 +18,7 @@ const Footer: React.FC = () => {
             <p className="mb-4 text-gray-300">
               Providing the highest standard of kosher certification since 1985.
             </p>
-            <div className="flex space-x-4">
+            {/* <div className="flex space-x-4">
               <a href="#" className="text-gray-300 hover:text-gold transition-colors">
                 <Facebook className="h-5 w-5" />
               </a>
@@ -28,7 +28,7 @@ const Footer: React.FC = () => {
               <a href="#" className="text-gray-300 hover:text-gold transition-colors">
                 <Instagram className="h-5 w-5" />
               </a>
-            </div>
+            </div> */}
           </div>
 
           <div>
