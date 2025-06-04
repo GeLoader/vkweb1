@@ -65,50 +65,50 @@ const Resources: React.FC = () => {
     }
   };
 
-  return (
-    <section id="resources" className="py-20 bg-gray-50">
-      <div className="container mx-auto px-4 md:px-6">
-        <div className="text-center mb-16">
+  // return (
+  //   <section id="resources" className="py-20 bg-gray-50">
+  //     <div className="container mx-auto px-4 md:px-6">
+  //       <div className="text-center mb-16">
           {/* <h2 className="font-serif text-3xl md:text-4xl font-bold text-navy mb-4">Educational Resources</h2> */}
           {/* <div className="w-24 h-1 bg-gold mx-auto mb-6"></div> */}
-          <p className="max-w-2xl mx-auto text-gray-600 text-lg">
-            Expand your knowledge about kosher practices with our collection of educational materials.
-          </p>
-        </div>
+        //   <p className="max-w-2xl mx-auto text-gray-600 text-lg">
+        //     Expand your knowledge about kosher practices with our collection of educational materials.
+        //   </p>
+        // </div>
 
-        <div className="flex justify-center mb-8">
-          <div className="inline-flex rounded-md shadow-sm" role="group">
-            <button
-              type="button"
-              className={`px-4 py-2 text-sm font-medium rounded-l-lg ${
-                activeFilter === 'all'
-                  ? 'bg-navy text-white'
-                  : 'bg-white text-gray-700 hover:bg-gray-100'
-              }`}
-              onClick={() => setActiveFilter('all')}
-            >
-              All Resources
-            </button>
-            <button
-              type="button"
-              className={`px-4 py-2 text-sm font-medium ${
-                activeFilter === 'article'
-                  ? 'bg-navy text-white'
-                  : 'bg-white text-gray-700 hover:bg-gray-100'
-              }`}
-              onClick={() => setActiveFilter('article')}
-            >
-              Articles
-            </button>
-            <button
-              type="button"
-              className={`px-4 py-2 text-sm font-medium ${
-                activeFilter === 'video'
-                  ? 'bg-navy text-white'
-                  : 'bg-white text-gray-700 hover:bg-gray-100'
-              }`}
-              onClick={() => setActiveFilter('video')}
-            >
+        // <div className="flex justify-center mb-8">
+        //   <div className="inline-flex rounded-md shadow-sm" role="group">
+        //     <button
+        //       type="button"
+        //       className={`px-4 py-2 text-sm font-medium rounded-l-lg ${
+        //         activeFilter === 'all'
+        //           ? 'bg-navy text-white'
+        //           : 'bg-white text-gray-700 hover:bg-gray-100'
+        //       }`}
+        //       onClick={() => setActiveFilter('all')}
+        //     >
+        //       All Resources
+        //     </button>
+        //     <button
+        //       type="button"
+        //       className={`px-4 py-2 text-sm font-medium ${
+        //         activeFilter === 'article'
+        //           ? 'bg-navy text-white'
+        //           : 'bg-white text-gray-700 hover:bg-gray-100'
+        //       }`}
+        //       onClick={() => setActiveFilter('article')}
+        //     >
+        //       Articles
+        //     </button>
+        //     <button
+        //       type="button"
+        //       className={`px-4 py-2 text-sm font-medium ${
+        //         activeFilter === 'video'
+        //           ? 'bg-navy text-white'
+        //           : 'bg-white text-gray-700 hover:bg-gray-100'
+        //       }`}
+        //       onClick={() => setActiveFilter('video')}
+        //     >
               {/* Videos
             </button>
             <button
@@ -120,47 +120,47 @@ const Resources: React.FC = () => {
               }`}
               onClick={() => setActiveFilter('guide')}
             > */}
-              Guides
-            </button>
-          </div>
-        </div>
+  //             Guides
+  //           </button>
+  //         </div>
+  //       </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {filteredResources.map((resource) => (
-            <div key={resource.id} className="bg-white rounded-lg shadow-sm overflow-hidden border border-gray-100 hover:shadow-md transition-shadow">
-              <div className="p-6">
-                <div className="flex items-center mb-4">
-                  {getIcon(resource.type)}
-                  <span className="ml-2 text-xs font-semibold uppercase tracking-wider text-gray-500">
-                    {resource.type}
-                  </span>
-                </div>
-                <h3 className="font-serif text-xl font-bold text-navy mb-2">{resource.title}</h3>
-                <p className="text-gray-600 mb-4">{resource.description}</p>
-                <a
-                  href={resource.link}
-                  className="inline-flex items-center text-gold hover:text-gold/80 font-medium"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Read More <ExternalLink className="ml-1 h-4 w-4" />
-                </a>
-              </div>
-            </div>
-          ))}
-        </div>
+  //       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+  //         {filteredResources.map((resource) => (
+  //           <div key={resource.id} className="bg-white rounded-lg shadow-sm overflow-hidden border border-gray-100 hover:shadow-md transition-shadow">
+  //             <div className="p-6">
+  //               <div className="flex items-center mb-4">
+  //                 {getIcon(resource.type)}
+  //                 <span className="ml-2 text-xs font-semibold uppercase tracking-wider text-gray-500">
+  //                   {resource.type}
+  //                 </span>
+  //               </div>
+  //               <h3 className="font-serif text-xl font-bold text-navy mb-2">{resource.title}</h3>
+  //               <p className="text-gray-600 mb-4">{resource.description}</p>
+  //               <a
+  //                 href={resource.link}
+  //                 className="inline-flex items-center text-gold hover:text-gold/80 font-medium"
+  //                 target="_blank"
+  //                 rel="noopener noreferrer"
+  //               >
+  //                 Read More <ExternalLink className="ml-1 h-4 w-4" />
+  //               </a>
+  //             </div>
+  //           </div>
+  //         ))}
+  //       </div>
 
-        <div className="mt-12 text-center">
-          <a 
-            href="#"
-            className="inline-block bg-navy text-white font-bold py-3 px-8 rounded-md transition-transform hover:scale-105"
-          >
-            View All Resources
-          </a>
-        </div>
-      </div>
-    </section>
-  );
+  //       <div className="mt-12 text-center">
+  //         <a 
+  //           href="#"
+  //           className="inline-block bg-navy text-white font-bold py-3 px-8 rounded-md transition-transform hover:scale-105"
+  //         >
+  //           View All Resources
+  //         </a>
+  //       </div>
+  //     </div>
+  //   </section>
+  // );
 };
 
 export default Resources;
