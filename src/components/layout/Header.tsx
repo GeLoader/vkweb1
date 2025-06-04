@@ -7,7 +7,7 @@ const navItems: NavItem[] = [
   { title: 'Home', href: '#' },
   { title: 'Services', href: '#services' },
   // { title: 'Search Products', href: '#products' },
-  { title: 'Resources', href: '#resources' },
+  // { title: 'Resources', href: '#resources' },
   { title: 'About Us', href: '#about' },
   { title: 'Contact', href: '#contact' },
 ];
