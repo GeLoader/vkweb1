@@ -20,7 +20,7 @@ function App() {
         {/* <ProductSearch />
         <Testimonials /> */}
         <About />
-        <Resources />
+        {/* <Resources /> */}
         <FAQ />
         <Contact />
       </main>
