@@ -17,12 +17,16 @@ const About: React.FC = () => {
           <div>
             <h3 className="font-serif text-2xl font-bold text-navy mb-4">Our Mission</h3>
             <p className="text-gray-600 mb-6">
-              At Volove Kashrus, our mission is to uphold the highest standards of Volove Kashrus certification, ensuring that consumers can confidently make choices aligned with Jewish dietary laws. We combine traditional knowledge with modern expertise to serve the global kosher community.
+              {/* At Volove Kashrus, our mission is to uphold the highest standards of Volove Kashrus certification, ensuring that consumers can confidently make choices aligned with Jewish dietary laws. 
+              We combine traditional knowledge with modern expertise to serve the global kosher community. */}
+              At Volove Kashrus, our mission is to uphold the highest standards of Volove Kashrus Kosher certification, ensuring that consumers receive everything they expect from VK and can confidently make choices aligned with Jewish dietary laws. We draw upon generations of traditional knowledge and modern expertise to support and serve the global kosher community with clarity, consistency, and care.
             </p>
             
             <h3 className="font-serif text-2xl font-bold text-navy mb-4">Our History</h3>
             <p className="text-gray-600 mb-6">
-              Founded in 1985 by Rabbi Teitelbaum, Volove Kashrus began as a small local certification agency in Brooklyn. Over the decades, we have grown into a globally recognized authority in Volove Kashrus certification, serving thousands of companies across six continents.
+            {/* Founded in 1955 by Rabbi Lipa Teitelbaum and rebranded in 1985 by his son, Rabbi N. E. Teitelbaum, Volove Kashrus began as a small local certification agency in Brooklyn. Over the decades, we have grown into a globally recognized authority in Volove Kashrus certification, serving thousands of companies across six continents. */}
+            Founded in 1955 by Rabbi Lipa Teitelbaum and rebranded in 1985 by his son, Rabbi N. E. Teitelbaum, Volove Kashrus began as a small local certification agency in Brooklyn. 
+            Over the decades, we have grown into a globally Respected and Trusted authority in Volove Kashrus certification, serving thousands of companies across six continents.
             </p>
             
             <h3 className="font-serif text-2xl font-bold text-navy mb-4">Our Approach</h3>

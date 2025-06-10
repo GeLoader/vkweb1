@@ -22,24 +22,24 @@ const services: Service[] = [
     description: 'Detailed analysis of ingredients to confirm they meet the strict standards of kosher law.',
     icon: 'Search'
   },
-  {
-    id: '4',
-    title: 'International Certification',
-    description: 'Global certification services to help companies meet kosher standards worldwide.',
-    icon: 'Globe'
-  },
+  // {
+  //   id: '4',
+  //   title: 'International Certification',
+  //   description: 'Global certification services to help companies meet kosher standards worldwide.',
+  //   icon: 'Globe'
+  // },
   {
     id: '5',
     title: 'Restaurant Certification',
     description: 'Specialized certification for restaurants and food service establishments.',
     icon: 'CookingPot'
   },
-  {
-    id: '6',
-    title: 'Kosher Training',
-    description: 'Educational programs for companies seeking to understand and implement kosher practices.',
-    icon: 'Book'
-  }
+  // {
+  //   id: '6',
+  //   title: 'Kosher Training',
+  //   description: 'Educational programs for companies seeking to understand and implement kosher practices.',
+  //   icon: 'Book'
+  // }
 ];
 
 const iconMap = {

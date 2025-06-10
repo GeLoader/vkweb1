@@ -89,7 +89,7 @@ const Contact: React.FC = () => {
                 <div>
                   <h4 className="font-bold text-lg mb-1">Email Us</h4>
                   {/* <p className="text-gray-300">info@koshertrust.com</p> */}
-                  <p className="text-gray-300">rabbi@vkkosher.org</p>
+                  <p className="text-gray-300">Rbtoffice@vkkosher.org</p>
                 </div>
               </div>
               
