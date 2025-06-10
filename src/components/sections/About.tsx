@@ -19,7 +19,7 @@ const About: React.FC = () => {
             <p className="text-gray-600 mb-6">
               {/* At Volove Kashrus, our mission is to uphold the highest standards of Volove Kashrus certification, ensuring that consumers can confidently make choices aligned with Jewish dietary laws. 
               We combine traditional knowledge with modern expertise to serve the global kosher community. */}
-              At Volove Kashrus, our mission is to uphold the highest standards of Volove Kashrus Kosher certification, ensuring that consumers receive everything they expect from VK and can confidently make choices aligned with Jewish dietary laws. We draw upon generations of traditional knowledge and modern expertise to support and serve the global kosher community with clarity, consistency, and care.
+              At Volove Kashrus, our mission is to uphold the highest standards of Kosher certification, ensuring that consumers receive everything they expect from VK and can confidently make choices aligned with Jewish dietary laws. We draw upon generations of traditional knowledge and modern expertise to support and serve the global kosher community with clarity, consistency, and care.
             </p>
             
             <h3 className="font-serif text-2xl font-bold text-navy mb-4">Our History</h3>
