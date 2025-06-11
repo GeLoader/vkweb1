@@ -9,7 +9,7 @@ const About: React.FC = () => {
           <h2 className="font-serif text-3xl md:text-4xl font-bold text-navy mb-4">About Volove Kashrus</h2>
           <div className="w-24 h-1 bg-gold mx-auto mb-6"></div>
           <p className="max-w-2xl mx-auto text-gray-600 text-lg">
-            A legacy of excellence in Volove Kashrus certification since 1985.
+            A legacy of excellence in VK Kosher certification since 1985.
           </p>
         </div>
 
