@@ -16,11 +16,11 @@ const Hero: React.FC = () => {
 
       <div className="container mx-auto px-4 md:px-6 relative z-10">
         <div className="max-w-3xl">
-          <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-            The Highest Standard in Kosher Certification
-          </h1>
+          <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6 leading-tight mt-16">
+          The Highest Standard in Kosher Certification. <br></br>Also known as VK Kosher
+          </h2>
           <p className="text-xl text-gray-200 mb-8 leading-relaxed">
-            Ensuring the integrity of kosher products through rigorous inspection, thorough analysis, and unwavering commitment to Jewish dietary laws.
+            Ensuring the integrity of kosher products through rigorous inspection, thorough analysis, and unwavering commitment to Jewish dietary laws with VK Kosher.
           </p>
           
           <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 mb-8">
@@ -34,7 +34,7 @@ const Hero: React.FC = () => {
               href="#contact" 
               className="bg-transparent border-2 border-white text-white font-bold py-3 px-6 rounded-md transition-transform hover:scale-105 text-center"
             >
-              Get Certified
+              Get Certified with VK Kosher
             </a>
           </div>
 
@@ -55,6 +55,9 @@ const Hero: React.FC = () => {
               <CheckCircle className="h-5 w-5 text-gold mr-2" />
               <span>Thousands of certified products</span>
             </div>
+            <div className="mt-6 text-2xl font-bold text-gold text-center">
+            VOLOVE IS THE HECHSHER.
+          </div>
           </div>
         </div>
       </div>

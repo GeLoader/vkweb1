@@ -61,11 +61,12 @@ const Services: React.FC = () => {
           <h2 className="font-serif text-3xl md:text-4xl font-bold text-navy mb-4">Our Certification Services</h2>
           <div className="w-24 h-1 bg-gold mx-auto mb-6"></div>
           <p className="max-w-2xl mx-auto text-gray-600 text-lg">
-            We provide comprehensive kosher certification services to ensure products meet the highest standards of kosher law.
+            {/* We provide comprehensive kosher certification services to ensure products meet the highest standards of kosher law. */}
+            We provide comprehensive VK Kosher certification services to ensure products meet the highest standards of kosher law.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
           {services.map((service) => (
             <ServiceCard 
               key={service.id} 
