@@ -33,6 +33,12 @@ const About: React.FC = () => {
             <p className="text-gray-600">
               We believe in a collaborative approach to VK Kosher certification. Our team works closely with manufacturers to implement VK Kosher systems that maintain the highest level of integrity while being practical and sustainable for businesses of all sizes.
             </p>
+
+            <br></br><h3 className="font-serif text-2xl font-bold text-navy mb-4">Our Expertise</h3>
+            <p className="text-gray-600">
+            With years of experience in kosher certification, we understand the intricate requirements businesses need to meet to achieve and maintain the highest kashrus standards. 
+            Our knowledgeable team is dedicated to guiding you through the certification process, ensuring that every aspect of your operation aligns with kosher standards. We pride ourselves on our attention to detail and commitment to excellence, helping you confidently achieve the certification you need.
+            </p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
