@@ -25,8 +25,7 @@ const About: React.FC = () => {
             <h3 className="font-serif text-2xl font-bold text-navy mb-4">Our History</h3>
             <p className="text-gray-600 mb-6">
             {/* Founded in 1955 by Rabbi Lipa Teitelbaum and rebranded in 1985 by his son, Rabbi N. E. Teitelbaum, Volove Kashrus began as a small local certification agency in Brooklyn. Over the decades, we have grown into a globally recognized authority in Volove Kashrus certification, serving thousands of companies across six continents. */}
-            Founded in 1955 by Rabbi Lipa Teitelbaum and rebranded in 1985 by his son, Rabbi N. E. Teitelbaum, VK Kosher began as a small local certification agency in Brooklyn. 
-            Over the decades, we have grown into a globally Respected and Trusted authority in VK Kosher certification, serving thousands of companies across six continents.
+            Founded in 1955 by Rabbi Lipa Teitelbaum and rebranded in 1985 by his son, Rabbi N. E. Teitelbaum, Volove Kashrus began as a small local certification agency in Brooklyn. Over the decades, we have grown into a globally Respected and Trusted authority in VK Kosher certification, serving thousands of companies across six continents.
             </p>
             
             <h3 className="font-serif text-2xl font-bold text-navy mb-4">Our Approach</h3>
@@ -71,7 +70,7 @@ const About: React.FC = () => {
                 <Shield className="h-6 w-6 text-gold" />
               </div>
               <h4 className="font-serif text-xl font-bold mb-2">Trusted Authority</h4>
-              <p className="text-gray-300">Recognized by Jewish communities worldwide</p>
+              <p className="text-gray-300">Respected and Trusted by Jewish communities worldwide</p>
             </div>
           </div>
         </div>
