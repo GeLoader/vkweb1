@@ -5,6 +5,18 @@ const Hero: React.FC = () => {
   return (
     <section className="relative h-screen flex items-center">
       {/* Hero Background */}
+ 
+<div 
+    className="absolute top-[25%] right-0 -translate-y-1/2
+      bg-gold text-navy font-bold py-3 px-6 
+      rounded-md cursor-pointer shadow-lg z-[1000]
+      sm:max-w-xs max-w-[calc(100vw-1rem)]
+      transition-opacity duration-300 hover:opacity-50
+      "
+  >
+    <span className="whitespace-nowrap text-sm sm:text-base">VOLOVE IS THE HECHSHER</span>
+  </div>
+
       <div 
         className="absolute inset-0 z-0 bg-cover bg-center"
         style={{ 
@@ -15,10 +27,29 @@ const Hero: React.FC = () => {
       </div>
 
       <div className="container mx-auto px-4 md:px-6 relative z-10">
+         {/* <div className="mt-6 text-2xl font-bold text-gold text-right">
+            VOLOVE IS THE HECHSHER
+          </div> */}
+ 
+          {/* <div 
+        className="fixed top-1/4 right-0 
+          -translate-y-1/2 
+          bg-gold text-navy font-bold py-3 px-6 
+          rounded-t-md  
+          cursor-pointer shadow-lg z-50 
+           "
+      >
+        <span className="whitespace-nowrap">VOLOVE IS THE HECHSHER</span>
+      </div> */}
         <div className="max-w-3xl">
           <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6 leading-tight mt-16">
-          The Highest Standard in Kosher Certification. <br></br>Also known as VK Kosher
+          The Highest Standard in Kosher Certification. 
+          <h2 className="font-serif text-1xl md:text-2xl  font-bold text-white mb-6 leading-tight">
+          Also known as VK Kosher 
           </h2>
+          </h2>
+         
+          
           <p className="text-xl text-gray-200 mb-8 leading-relaxed">
             Ensuring the integrity of kosher products through rigorous inspection, thorough analysis, and unwavering commitment to Jewish dietary laws with VK Kosher.
           </p>
@@ -55,9 +86,7 @@ const Hero: React.FC = () => {
               <CheckCircle className="h-5 w-5 text-gold mr-2" />
               <span>Thousands of certified products</span>
             </div>
-            <div className="mt-6 text-2xl font-bold text-gold text-center">
-            VOLOVE IS THE HECHSHER.
-          </div>
+          
           </div>
         </div>
       </div>
