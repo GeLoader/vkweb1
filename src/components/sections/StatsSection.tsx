@@ -48,7 +48,7 @@ const StatsStrip = () => {
   return (
     <section className="py-16 bg-gray-100">
       <div className="container mx-auto px-4 ">
-        <h2 className="font-serif text-3xl md:text-4xl font-bold text-navy mb-4 text-center">Our Legacy in VK Kosher Certification</h2>
+        <h2 className="font-serif text-3xl md:text-4xl font-bold text-navy mb-4 text-center">Our Achievements Through Numbers</h2>
         <div className="w-24 h-1 bg-gold mx-auto mb-6 "></div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 ">
           {stats.map((stat, index) => {
