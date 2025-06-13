@@ -47,7 +47,7 @@ const About: React.FC = () => {
             </p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 relative  top-[-20%]">
             <div className="bg-navy text-white rounded-lg p-6 transform transition-transform hover:scale-105">
               <div className="bg-gold/20 p-3 rounded-full w-12 h-12 flex items-center justify-center mb-4">
                 <Clock className="h-6 w-6 text-gold" />
