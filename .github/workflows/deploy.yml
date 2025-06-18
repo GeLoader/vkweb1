@@ -24,6 +24,8 @@ jobs:
       - name: Build project
         run: npm run build
 
+      - name: Run deploy
+        run: npm run deploy
 
       - name: Configure Git user
         run: |
