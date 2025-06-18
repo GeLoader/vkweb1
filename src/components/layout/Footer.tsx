@@ -16,7 +16,7 @@ const Footer: React.FC = () => {
               <span className="font-serif text-xl font-bold">Volove Kashrus</span>
             </div>
             <p className="mb-4 text-gray-300">
-              Providing the highest standard of kosher certification since 1985ssss.
+              Providing the highest standard of kosher certification since 1985sfsfsfsss.
             </p>
             {/* <div className="flex space-x-4">
               <a href="#" className="text-gray-300 hover:text-gold transition-colors">
