@@ -37,12 +37,12 @@ const Header: React.FC = () => {
         <div className="flex items-center justify-between">
           <div className="flex items-center">
           <a href="" target="_self">
-            <img 
-             src={`${ isScrolled ? './vklogo-black.svg' : './vklogo.svg'
-              }`}
-              alt="Volove Kashrus Logo" 
+            <img
+              src={`${import.meta.env.BASE_URL}${isScrolled ? '/vklogo-black.svg' : '/vklogo.svg'}`}
+              alt="Volove Kashrus Logo"
               className="h-12 w-12 mr-2"
-            /> </a>
+            />
+          </a>
             <span className={`font-serif text-2xl font-bold ${
               isScrolled ? 'text-navy' : 'text-white'
             }`}>
