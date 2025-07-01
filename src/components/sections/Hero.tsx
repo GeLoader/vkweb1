@@ -3,24 +3,24 @@ import { CheckCircle } from 'lucide-react';
 
 const Hero: React.FC = () => {
   return (
-    <section className="relative h-screen flex items-center">
+    <section className="relative h-screen flex items-center min-h-min py-8">
       {/* Hero Background */}
  
-<div 
+  {/* <div 
     className="absolute top-[25%] right-0 -translate-y-1/2
       bg-gold text-navy font-bold py-3 px-6 
-      rounded-md cursor-pointer shadow-lg z-[1000]
+      rounded-md cursor-pointer shadow-lg z-[49]
       sm:max-w-xs max-w-[calc(100vw-1rem)]
       transition-opacity duration-300 hover:opacity-50
       "
   >
     <span className="whitespace-nowrap text-sm sm:text-base">VOLOVE IS THE HECHSHER</span>
-  </div>
+  </div> */}
 
       <div 
         className="absolute inset-0 z-0 bg-cover bg-center"
         style={{ 
-          backgroundImage: `url('${import.meta.env.BASE_URL}/pexels-anntarazevich-hero.jpg')`, 
+          backgroundImage: `url('${import.meta.env.BASE_URL}/pexels-anntarazevich-herov3.jpg')`, 
         }}
       >
         <div className="absolute inset-0 bg-navy bg-opacity-70"></div>
@@ -80,7 +80,7 @@ const Hero: React.FC = () => {
             </div>
             <div className="flex items-center">
               <CheckCircle className="h-5 w-5 text-gold mr-2" />
-              <span>30+ years of expertise</span>
+              <span>70+ years of expertise</span>
             </div>
             <div className="flex items-center">
               <CheckCircle className="h-5 w-5 text-gold mr-2" />
